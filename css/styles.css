@@ -1,0 +1,23 @@
+.input {
+    margin-bottom: 20px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+#add-task {
+    display: inline;
+}
+
+#update-task {
+    display: none;
+}
+
+.editing-task #add-task {
+    display: none;
+}
+
+.editing-task #update-task {
+    display: inline;
+}
